@@ -74,7 +74,7 @@ function Footer() {
               </LoadScript> */}
               <img
                 style={mapStyles}
-                src={require("../images/map.png")}
+                src={require("../images/map.jpeg")}
                 className="p-0 img"
                 alt="img"
               />
