@@ -2,8 +2,6 @@ import { Container, Button } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnimationTitles from "../components/functions/AnimationTitles";
 
-// const { Container } = require("react-bootstrap");
-
 function Trending() {
   return (
     <div className="join">

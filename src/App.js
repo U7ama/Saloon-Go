@@ -8,6 +8,7 @@ import Header from "./pages/Header";
 import Listings from "./pages/Listings";
 import Subscribe from "./pages/Subscribe";
 import Blogs from "./pages/Blogs";
+import FAQs from "./pages/FAQs";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Trending />
         <Listings />
         <Blogs />
+        <FAQs />
         <Reviews />
         <Subscribe />
         <Footer />

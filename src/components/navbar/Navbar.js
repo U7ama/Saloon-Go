@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../images/logo/logo.png";
-import { Button } from "react-bootstrap";
+import { Button, Dropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./navbar.css";
 
@@ -16,15 +16,11 @@ function NavBar() {
           <div className="d-flex align-items-center order">
             {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
             <Navbar.Collapse id="navbarScroll">
-              <Nav.Link href="#action1" className="px-lg-3">
-                Get Your Free Listing
-              </Nav.Link>
+              <Nav.Link className="px-lg-3">Get Your Free Listing</Nav.Link>
 
-              <Nav.Link href="#action1" className="px-lg-3">
-                Book Now
-              </Nav.Link>
+              <Nav.Link className="px-lg-3">Book Now</Nav.Link>
 
-              <Nav.Link href="#action1" className="px-lg-3">
+              <Nav.Link className="px-lg-3">
                 <i className="fa-brands fa-rocketchat"></i> Chat Now
               </Nav.Link>
               <Button
@@ -47,12 +43,23 @@ function NavBar() {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav className="me-auto my-2 my-lg-0" navbarScroll>
-                <Nav.Link href="#action1">Why Saloon Go</Nav.Link>
-                <Nav.Link href="#action1" className="px-lg-3">
-                  Free Tools
-                </Nav.Link>
-                <Nav.Link href="#action1">Contact Us</Nav.Link>
-                <Nav.Link href="#action1">Blogs</Nav.Link>
+                <Nav.Link>Why Saloon Go</Nav.Link>
+                <Dropdown as={Nav.Item} className="px-lg-3">
+                  <Dropdown.Toggle as={Nav.Link}>Free Tools</Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#action/3.1">
+                      Register as User
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#action/3.2">
+                      Register as Seller
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#action/3.3">
+                      Get you free listing
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+                <Nav.Link>Contact Us</Nav.Link>
+                <Nav.Link>Blogs</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </div>

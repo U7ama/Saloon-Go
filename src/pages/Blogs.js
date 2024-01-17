@@ -14,10 +14,6 @@ function Blogs() {
           spaceBetween={15}
           grabCursor={true}
           loop={true}
-          // pagination={{
-          //   clickable: true,
-          //   dynamicBullets: true,
-          // }}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -43,7 +39,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon13.jpg")}
               />
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -58,7 +53,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon14.jpg")}
               />
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -73,7 +67,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon15.webp")}
               />
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -88,8 +81,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon16.jpg")}
               />
-
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -104,8 +95,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon1.jpeg")}
               />
-
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -120,8 +109,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon1.jpeg")}
               />
-
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -136,8 +123,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon1.jpeg")}
               />
-
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottage</h5>
             <p className="gray-90">Red Oak Realty</p>
@@ -152,8 +137,6 @@ function Blogs() {
                 alt="img"
                 src={require("../images/saloon1.jpeg")}
               />
-
-              {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
             </div>
             <h5 className="mt-2 text-white fw-normal">Cottages</h5>
             <p className="gray-90">Red Oak Realty</p>

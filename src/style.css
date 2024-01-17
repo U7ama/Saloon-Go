@@ -36,7 +36,25 @@ body {
   font-size: 48px;
   color: white;
 }
+.custom-accordion-header {
+  background-color: #121420;
+  color: white;
+}
 
+.accordion-button:not(.collapsed) {
+  background-color: #121420;
+  color: white;
+}
+
+.accordion-button {
+  background-color: #121420;
+  color: white;
+}
+
+.custom-accordion-body {
+  background-color: #121420;
+  color: white;
+}
 .w-min-content {
   width: min-content;
 }
@@ -474,7 +492,7 @@ body {
   z-index: -1;
 }
 
-.subscribe .container div {
+.subscribe .container .subscribe_div div {
   border: 1px solid #545b79;
   border-radius: 7px;
   -webkit-border-radius: 7px;
@@ -483,7 +501,7 @@ body {
   -o-border-radius: 7px;
 }
 
-.subscribe .container div input:focus {
+.subscribe .container .subscribe_div div input:focus {
   outline: none;
 }
 
@@ -594,7 +612,7 @@ footer div span {
     font-size: 12px;
   }
 
-  .subscribe .container div {
+  .subscribe .container .subscribe_div div {
     width: 100%;
   }
 
@@ -631,7 +649,7 @@ footer div span {
     width: calc(100% - 0.5rem);
   }
 
-  .subscribe .container div {
+  .subscribe .container .subscribe_div div {
     width: 50%;
   }
   .subscribe .container {

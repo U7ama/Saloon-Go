@@ -1,6 +1,5 @@
 import { Button, Card, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CountDown from "../components/functions/CountDown";
 import { motion } from "framer-motion";
 import AnimationTitles from "../components/functions/AnimationTitles";
 
@@ -28,23 +27,6 @@ function Header() {
           <Button className="custom-btn-color m-0 my-3 px-5 py-2 fs-5 fw-bold">
             Get You free listing
           </Button>
-          {/* <div
-            style={{ color: "white" }}
-            className="d-none d-md-flex justify-content-between align-items-center my-4"
-          >
-            <div>
-              <h5 className="fw-bold fs-1">12K+</h5>
-              <span className="gray-100">properties</span>
-            </div>
-            <div>
-              <h5 className="fw-bold fs-1">10K+</h5>
-              <span className="gray-100">auction</span>
-            </div>
-            <div>
-              <h5 className="fw-bold fs-1">12K+</h5>
-              <span className="gray-100">developers</span>
-            </div>
-          </div> */}
         </motion.div>
         <motion.div
           initial={{ x: 400 }}

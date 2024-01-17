@@ -7,10 +7,6 @@ function Reviews() {
     <div className="reviews">
       <div className="container-fluid">
         <AnimationTitles title="Reviews" className="title mx-auto" />
-        {/* <p className="gray-50 text-center mb-5">
-          The value of real estate can be affected by its utility, project, and
-          demand.{" "}
-        </p> */}
 
         <motion.div
           initial={{ x: 80 }}

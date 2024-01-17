@@ -1,8 +1,18 @@
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
 function Footer() {
+  const mapStyles = {
+    height: "120px",
+    width: "120%",
+  };
+
+  const defaultCenter = {
+    lat: 31.5826,
+    lng: 74.3276,
+  };
+
   return (
     <footer>
       <Container>
@@ -12,17 +22,17 @@ function Footer() {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img
-              src={require("../images/logo/logo.png")}
-              alt="logo"
-              className="mb-3 w-25"
-            />
+            <h5 className="mt-2 text-white fw-normal">About Us</h5>
             <p className="gray-100">
-              Please contact us if you have any specific <br /> idea or request.
+              Enjoy personalized hair styling and treatments at your
+              convenience,
+              <br />
+              and experience the luxury of professional haircare tailored to
+              your
+              <br />
+              needs and schedule. With Saloon Go, every day is a great hair day!{" "}
+              <br /> idea or request.
             </p>
-            {/* <Link className="link-primary link-underline-opacity-0" to={""}>
-              info@revend.group
-            </Link> */}
           </motion.div>
           <span className="d-block d-md-none"></span>
           <motion.div
@@ -51,16 +61,24 @@ function Footer() {
                 <li>Write for Us</li>
               </ul>
             </div>
-            {/* <div>
+            <div className="me-5">
               <h6 className="gray-100 text-uppercase mb-2 fw-normal">
-                Socials
+                Our Location
               </h6>
-              <ul className="p-0">
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-              </ul>
-            </div> */}
+              {/* <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+                <GoogleMap
+                  mapContainerStyle={mapStyles}
+                  zoom={13}
+                  center={defaultCenter}
+                />
+              </LoadScript> */}
+              <img
+                style={mapStyles}
+                src={require("../images/map.png")}
+                className="p-0 img"
+                alt="img"
+              />
+            </div>
           </motion.div>
         </div>
         <motion.div

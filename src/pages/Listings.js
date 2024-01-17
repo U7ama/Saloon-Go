@@ -8,8 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
-import CountDown from "../components/functions/CountDown";
-// import framer motion
+
 import { motion } from "framer-motion";
 import AnimationTitles from "../components/functions/AnimationTitles";
 
@@ -84,7 +83,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon12.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -104,7 +102,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon2.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -124,7 +121,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon4.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -144,7 +140,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon4.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -164,7 +159,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon2.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -184,7 +178,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon2.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
@@ -204,7 +197,6 @@ function Listings() {
                       alt="img"
                       src={require("../images/saloon2.jpeg")}
                     />
-                    {/* <i className="fa-regular fa-heart like" onClick={like}></i> */}
                   </div>
                   <div className="d-flex justify-content-center w-100 mt-3 mb-2">
                     <Button variant="primary ms-0" className="custom-btn-color">
